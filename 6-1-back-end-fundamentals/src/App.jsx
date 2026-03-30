@@ -340,12 +340,19 @@ REFLECTION QUESTIONS
 After you finish, answer these questions:
 
 1. What is the role of the back-end?
+   The back-end is responsible for handling requests from the client (browser or React) and sending back responses.
 2. What happens when the browser opens a route?
+   The browser sends a request to the server for that route, and the server sends back a response.
 3. Who sends the request?
+   The browser(client) sends the request.
 4. Who sends the response?
+   The server sends the response.
 5. What is the difference between text response and JSON response?
-6. In this lab, which route is used by React to get student data?
+   A text response is a string of text, while a JSON response is a JavaScript object that can be parsed by the client.
+6. In this lab, which route is used by React to get student data? 
+   http://localhost:3000/student
 7. How does React use the returned student data?
+   it is used in a useState hook to store the data and display it on screen.
 
 ===================================================================
 END OF LAB INSTRUCTIONS
